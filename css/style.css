@@ -1,0 +1,764 @@
+/* pour toute les pages */
+
+*{
+    font-family: Arial;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    font-size: 1.5em;
+    line-height: 1.42857;
+    color: #333;
+    min-height: 100%;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.btn {
+    border-radius: 2px;
+}
+
+.DEA {
+    background-color: #2579D9;
+    color:#FFFFFF;
+}
+
+.TLC {
+    background-color: #848484;
+    color:#FFFFFF;
+}
+
+.D3E {
+    background-color: #E32525;
+    color:#FFFFFF;
+}
+
+.AE {
+    background-color: #3FB952;
+    color:#FFFFFF;
+}
+
+.Prestation {
+    background-color: #4128D6;
+    color:#FFFFFF;   
+}
+
+.message-erreur {
+    margin: auto;
+    text-align: center;
+    font-size: 1.250em;
+    color:red;
+    width: 90%;
+}
+
+.message-OK {
+    padding: 0 15px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin: auto;
+    font-weight: 700;
+}
+
+.panel-body {
+    padding: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.panel-annulation {
+    margin-top: 60px;
+}
+
+/* Page Legend */
+
+.nom-ressourcerie {
+    text-align: left;
+    margin: auto;
+}
+
+.date-du-jour {
+    text-align: right;
+    margin-right: 25px;
+}
+
+/* Page connexion */
+
+.logo {
+    margin-top: 25%;
+}
+
+.bouton-connexion {
+    color: rgb(240, 240, 240);
+    background-color: #5CB85C;
+    border-color: #4CAE4C;
+    width: 60%;
+    height: 5%;
+    font-size: 0.938em;
+}
+
+.bouton-connexion:hover {
+    color: rgb(3, 3, 3);
+    background-color: #5CB85C;
+    border-color: rgb(3, 3, 3);
+    width: 60%;
+    height: 5%;
+    font-size: 0.938em;
+}
+
+/* Page Menu de Navigation */
+
+.container-fluid > 
+.navbar-collapse, 
+.container-fluid > 
+.navbar-header, 
+.container > 
+.navbar-collapse, 
+.container > 
+.navbar-header {
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.dropdown-toggle:hover {
+    cursor: pointer;
+}
+
+.nom-ressourcerie {
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+.titre-nav {
+    text-align: center;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, 
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #6E8ABA;
+    background-color: transparent;
+}
+
+.navbar-inverse {
+    border-radius: 0px;
+}
+
+.titre-reception,
+.panel-number {
+    text-align: center;
+}
+
+.panel-info {
+    border-color: #C6CFD2;
+    background-color: #F2F2F2;
+   /* height: 450px;*/
+    height: 100%;
+}
+
+.panel-body {
+    /*padding: 25px 15px 25px;*/
+    text-align: center;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 0.875em;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.btn-circle {
+    width: 38px;
+    height: 35px;
+    text-align: center;
+    padding: 6px 0;
+    margin:  auto;
+    margin-bottom: 5px;
+    font-size: 1em;
+    line-height: 1;
+    border-radius: 40px;
+    background-color: #ADD8E6;
+    border-color: #69696F;
+}
+
+.btn-nav {
+    background: #18181A;
+    border-radius: 2px;
+    border: 2px solid #bdc3c7;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1.375em;
+    margin: 15px 45px;
+    width: 220px;
+}
+
+.btn-nav-admin {
+    background: #18181A;
+    border-radius: 2px;
+    border: 2px solid #bdc3c7;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1.375em;
+    margin: 15px 45px;
+    width: 340px;
+}
+
+.en_cours_admin,
+.en_cours_bilan {
+    background: #504DAE;
+    border-radius: 2px;
+    border: 2px solid #bdc3c7;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1.375em;
+    margin: 15px 45px;
+    width: 340px;
+}
+
+.en_cours_collect {
+    background: #504DAE;
+    border-radius: 2px;
+    border: 2px solid #bdc3c7;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1.375em;
+    margin: 15px 45px;
+    width: 220px;
+}
+
+.en_cours_valorization {
+    background: #16a085;
+    border-radius: 2px;
+    border: 2px solid #bdc3c7;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1.375em;
+    margin: 15px 45px;
+    width: 220px;
+}
+
+.en_cours_shop {
+    background: #5B6368;
+    border-radius: 2px;
+    border: 2px solid #bdc3c7;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1.375em;
+    margin: 15px 45px;
+    width: 220px;
+}
+
+.navbar-inverse 
+.navbar-nav > li > a {
+    color: rgb(239, 227, 227);
+}
+
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:focus, 
+.navbar-inverse .navbar-nav > .open > a:hover {
+    color: #6E8ABA;
+    background-color: rgb(17, 17, 18);
+}
+
+.btn-navbar:hover,
+.btn-navbar:active,
+.btn-navbar.active,
+.btn-navbar.disabled,
+.btn-navbar[disabled] {
+    box-shadow: none;
+    background: none;
+    border-radius: 3px;
+    border: 1px solid #4E6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1.563em;
+    width: 220px;
+}
+
+.dropdown-menu > li > a:focus, 
+.dropdown-menu > li > a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #808FD5;
+}
+
+/* page Collect */
+
+.panel-collect {
+    color: #F0F0F0;
+    background-color: #504DAE;
+    border-color: #5B6368 #5B6368 transparent;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.collect-source,
+.object-source {
+   font-size: 0.875em;
+   autofocus: none;
+   required: none;
+}
+
+/* Page Valorization  */
+
+.message-valorization-OK {
+    padding: 0 15px;
+}
+
+.panel-valorisation {
+    color: #F0F0F0;
+    background-color: #16a085;
+    border-color: #16a085 #16a085 transparent;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.bouton-pese {
+    width: 100%;
+    height: 41px;
+    font-size: 1.500em;
+    padding: 0px;
+}
+
+.bouton-annule {
+    width: 100%;
+    height: 41px;
+    font-size: 1.250em;
+    padding: 0px;
+}
+
+/* Page shop */
+
+.panel-shop {
+    color: #F0F0F0;
+    background-color: #5B6368;
+    border-color: #5B6368 #5B6368 transparent;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.panel-title {
+    text-align: center;
+}
+
+/* Panel Shop / Saisie */
+
+.saisie-type-object {
+    text-align: left;
+    font-size: 0.9em;
+    height: 40px;
+    width: 100%;
+    margin: 5% 0;
+}
+
+.bouton-pese-shop {
+    width: 100%;
+    height: 40px;
+    font-size: 1.500em;
+    padding: 0px;
+    margin: 5% 0;
+}
+
+.saisie {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    margin: 5% 0;
+}
+
+.poids {
+    text-align: center;
+    font-size: 1em;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+}
+
+.bouton-saisie {
+    font-size: 1em;
+    height: 100%;
+    width: 100%;
+    margin: 5% 0;
+}
+
+.bouton-annule-shop {
+    font-size: 0.8em;
+    width: 90%;
+    height: 40px;
+    margin: 5%;
+}
+
+/* Page Shop / Panier Ticket */
+
+.table-responsive {
+    padding: 1% 5% 0 5%;
+    margin: 0%;
+    width: 100%;
+}
+
+.panier-table {
+    text-align: center;
+    font-size: 0.9em;
+    border-color: #BAC8CB;
+    background-color: white;
+}
+
+.total-ticket {
+    font-size: 1em;
+    text-align: center;
+    margin: 5% 10%;
+    height: 100%;
+    width: 80%;
+}
+
+.btn-poubelle {
+    color: #333;
+    background-color: #FFF;
+    font-size: 1.250em;
+}
+
+.panel-total {
+    margin: 2% 10% 2% 50%;
+}
+
+/* Page Shop / Panel Règlement */
+
+.giving_change {
+    margin-left: 0;
+}
+
+.bouton-remboursement {
+    height: 100%;
+    width: 80%;
+    margin: 5% auto;
+    border-radius: 2px;
+}
+
+/* Rendu monnaie */
+
+.saisie-paiement {
+    text-align: center;
+    font-size: 0.85em;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+}
+
+.bouton-rendu,
+.affichage-rendu {
+    text-align: center;
+    font-size: 0.9em;
+    height: 40px;
+    width: 100%;
+    margin: 5% 0px;
+}
+
+.giving_change {
+    margin-left: 0;
+}
+
+/* Page Shop / Mode de paiement */
+
+.bouton-encaissement {
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+/* Page Shop / Panel Don Remboursement */
+
+.bouton-don-remboursement {
+    color: #FFF;
+    background-color: #9b59b6;
+    border-color: #9b59b6;
+    font-size: 0.9em;
+    width: 90%;
+    height: 40px;
+    margin: 5%;
+}
+
+.bouton-don-remboursement:hover {
+    color: #FFF;
+    background-color: #8e44ad;
+    border-color: #8e44ad;
+    font-size: 0.9em;
+    width: 90%;
+    height: 40px;
+    margin: 5%;
+}
+
+/* Page autres opérations */
+
+.saisie-valeur-don,
+.bouton-encaisser-don,
+.saisie-remboursement,
+.bouton-valide-remboursement {
+	text-align: center;
+    font-size: 1.250em;
+    height: 40px;
+	width: 100%;
+    padding: 0;
+    margin: 5% 5% 0 0;
+}
+
+.bouton-annule-other {
+    text-align: center;
+    font-size: 1.250em;
+    height: 40px;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.bouton-export-csv {
+    margin-bottom: 20px;
+}
+
+.fond-caisse {
+    font-size: 1.3em;
+}
+
+/* Page Administration */
+
+.titre-saisie {
+    margin: 5px;
+    font-size: 1.3em;
+}
+
+/* Page Administration / Liste des utilisateurs validés */
+
+.panel-user-list {
+    font-size: 1em;
+    border-color: #BAC8CB;
+    background-color: #E6E5F8;
+    height: 100%;
+    margin-left: 2%;
+    padding: 0;
+}
+
+.panel > 
+.table-bordered, .panel > 
+.table-responsive > 
+.table-bordered {
+    border: 0px none;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.table-bordered > tbody > tr > td, 
+.table-bordered > tbody > tr > th, 
+.table-bordered > tfoot > tr > td, 
+.table-bordered > tfoot > tr > th, 
+.table-bordered > thead > tr > td, 
+.table-bordered > thead > tr > th {
+    text-align: center;
+}
+
+.panel-admin {
+    color: #333333;
+    background-color: #A3CAE3;
+    border-color: #5B6368 #5B6368 transparent;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.btn-liste-user {
+    color: #333;
+    background-color: #FFF;
+}
+
+.bouton-action{
+    display: inline;
+}
+
+/* Page Administration / Saisie nouvel utilisateur */
+
+.titre-saisie-user {
+    margin: 5px;
+    font-size: 1.3em;
+}
+
+.new-user,
+.new-password,
+.choix-new-site {
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    margin: 10% 6%;
+    font-size: 1em;
+}
+
+.bouton-new-user {
+    width: 95%;
+    height: 40px;
+    margin: 0% 3% 10% 3%;
+    font-size: 1em;
+}
+
+/* Page Administration / Saisie nouveau site */
+
+.new-site {
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    margin: 10% 5%;
+    font-size: 1em;
+}
+
+.bouton-new-site {
+    width: 90%;
+    height: 40px;
+    margin: 0% 5% 10% 5%;
+    font-size: 1em;
+}
+
+
+/*Page bilan*/
+
+.panel-collect {
+    color: #FFF;
+    background-color: #504DAE;
+    border-color: #5B6368 #5B6368 transparent;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.panel-valorization {
+    color: #FFF;
+    background-color: #16A085;
+    border-color: #5B6368 #5B6368 transparent;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.panel-sale {
+    color: #FFF;
+    background-color: #5B6368;
+    border-color: #5B6368 #5B6368 transparent;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.nav-pills > li.active_collect > a,
+.nav-pills > li.active_collect > a:focus,
+.nav-pills > li.active_collect > a:hover {
+    font-size: 1.2em;
+    color: #FFF;
+    border-radius: 2px;
+    background-color: #504DAE;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    width: 80%;
+    margin: auto;
+}
+
+.nav-pills > li.active_valorization > a,
+.nav-pills > li.active_valorization > a:focus,
+.nav-pills > li.active_valorization > a:hover {
+    font-size: 1.2em;
+    color: #FFF;
+    border-radius: 2px;
+    background-color: #16a085;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    width: 80%;
+    margin: auto;
+}
+
+.nav-pills > li.active_shop > a,
+.nav-pills > li.active_shop > a:focus,
+.nav-pills > li.active_shop > a:hover {
+    font-size: 1.2em;
+    color: #FFF;
+    border-radius: 2px;
+    background-color: #5B6368;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    width: 80%;
+    margin: auto;
+}
+
+.inactive {
+    font-size: 1.2em;
+}
+
+.bouton-rechercher {
+    margin-top: 28px;
+}
+
+.date {
+    width: 100%;
+    height: 40px;
+}
+
+.total-poids,
+.panier-moyen-total-vente,
+.panier-moyen,
+.total-vente {
+    font-size: 1.2em;
+    height: 45px;
+    margin-bottom: 10%;
+    width: 100%;
+    border: 2px solid #999393;
+}
+
+/* Footer */
+
+.barre-footer {
+    background-color: rgb(34, 34, 34);
+}
+
+.texte-footer,
+.contact-footer {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px 20px;
+    color: #9D9D9D;
+}
