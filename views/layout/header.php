@@ -12,4 +12,5 @@
 	    <title>Ressourcerie Trimaran</title>
 	    <link rel="shortcut icon" type="images/x-icon" href="../../images/favicon.ico" />
   	</head>
+  	
   	<body>
